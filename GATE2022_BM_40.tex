@@ -221,7 +221,7 @@ The block diagrams of an ideal system and a real system with their impulse
 responses are shown below. An auxiliary path is added to the delayed impulse
 response in the real system.\\
 \\
-For a unit impulse input $\brak{x(t) = \delta(t)}${ to both systems, gain $\beta$ is chosen such that $y(4T)$ is same for both systems. The value of $\beta$ is:
+For a unit impulse input $\brak{x(t) = \delta(t)}${ to both systems, gain $\beta$ is chosen such that $y \brak{4T}$ is same for both systems. The value of $\beta$ is:
 \begin{figure}[ht]
     \centering
     \includegraphics[width=\columnwidth]{figs/fig3.png}
@@ -238,30 +238,17 @@ For a unit impulse input $\brak{x(t) = \delta(t)}${ to both systems, gain $\beta
 \section{Solution}
 Let the output of the ideal system be $y_I$ and output of the real system be $y_R$\\
 \begin{align}
-y_I &= e^{- \alpha t} u(t)
+y_I &= e^{- \alpha t} u\brak{t}
 \end{align}
 \begin{align}
-y_R &= \sbrak{\beta( u(t) - u(t-5T)) + e^{- \alpha (t - T)} u(t - T)}
+y_R &= \sbrak{\beta \brak{ u\brak{t} - u\brak{t-5T}} + e^{- \alpha \brak{t - T}} u\brak{t-T}}
 \end{align}
 At time t = 4T, both the signals are equal (for a unit impulse)\\
 \\
-If $t>0$:
+For both signals to be equal at t = 4T:\\
 \begin{align}
-u(t) = 1
-\end{align} 
-Else:
-\begin{align}
-u(t) = 0
-\end{align} 
-For both signals to be equal:\\
-\begin{align}
-e^{- \alpha t} u(t) = \sbrak{\beta( u(t) - u(t-5T)) + e^{- \alpha (t - T)} u(t - T)}
-\end{align}
-Putting t = 4T:
-\begin{align}
-e^{- \alpha 4T} &= \beta + e^{- \alpha 3T}
-\end{align}
-\begin{align}
+e^{- \alpha 4T} u\brak{4T}&= \sbrak{\beta\brak{ u\brak{4T} - u\brak{-T}} + e^{- \alpha \brak{3T}} u\brak{3T}}\\
+e^{- \alpha 4T} &= \beta + e^{- \alpha 3T}\\
 \implies \beta &=  e^{-3 \alpha T} \brak{1 - e^{-\alpha T}}
 \end{align}
 \\
