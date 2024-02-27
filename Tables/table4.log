@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.10)  27 FEB 2024 10:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.10)  27 FEB 2024 17:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -32,10 +32,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-<recently read> \sbrak 
-                       
-l.7 	$2$ & $y_R$ & $\sbrak
-                          {\beta \brak{ u\brak{t} - u\brak{t-5T}} + e^{- \al...
+l.7 	$2$ & $y_R$ & $\beta \brak
+                               { u\brak{t} - u\brak{t-5T}} + e^{- \alpha \br...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -43,8 +41,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.7 	$2$ & $y_R$ & $\sbrak{\beta \brak
-                                      { u\brak{t} - u\brak{t-5T}} + e^{- \al...
+l.7 	$2$ & $y_R$ & $\beta \brak{ u\brak
+                                       {t} - u\brak{t-5T}} + e^{- \alpha \br...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -52,16 +50,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.7 	$2$ & $y_R$ & $\sbrak{\beta \brak{ u\brak
-                                              {t} - u\brak{t-5T}} + e^{- \al...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.7 ...$ & $\sbrak{\beta \brak{ u\brak{t} - u\brak
+l.7 ... & $y_R$ & $\beta \brak{ u\brak{t} - u\brak
                                                   {t-5T}} + e^{- \alpha \bra...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -71,7 +60,7 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.7 ...brak{t} - u\brak{t-5T}} + e^{- \alpha \brak
-                                                  {t - T}} u\brak{t-T}}$\\[2pt]
+                                                  {t - T}} u\brak{t-T}$\\[2pt]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -80,7 +69,7 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.7 ...k{t-5T}} + e^{- \alpha \brak{t - T}} u\brak
-                                                  {t-T}}$\\[2pt]
+                                                  {t-T}$\\[2pt]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -95,11 +84,11 @@ and I'll forget about whatever was undefined.
 
  
 Here is how much of TeX's memory you used:
- 22 strings out of 478287
- 452 string characters out of 5849289
+ 21 strings out of 478287
+ 447 string characters out of 5849289
  290005 words of memory out of 5000000
- 18318 multiletter control sequences out of 15000+600000
+ 18317 multiletter control sequences out of 15000+600000
  469567 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 19i,10n,12p,123b,138s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 19i,9n,12p,115b,138s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
