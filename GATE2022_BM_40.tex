@@ -228,23 +228,20 @@ For a unit impulse input $\brak{x(t) = \delta(t)}${ to both systems, gain $\beta
     \label{fig: 10.5.3.128}
 \end{figure}
 \\
-(A) $e^{-3 \alpha T} \brak{1 - e^{-2 \alpha T}}$\\
+$\brak{A} e^{-3 \alpha T} \brak{1 - e^{-2 \alpha T}}$\\
 \\
-(B) $-e^{- \alpha T} \brak{1 - e^{-3 \alpha T}}$\\
+$\brak{B} -e^{- \alpha T} \brak{1 - e^{-3 \alpha T}}$\\
 \\
-(C) $e^{-3 \alpha T} \brak{1 - e^{-\alpha T}}$\\
+$\brak{C} e^{-3 \alpha T} \brak{1 - e^{-\alpha T}}$\\
 \\
-(D) $e^{-2 \alpha T} \brak{1 - e^{-2 \alpha T}}$\\
+$\brak{D} e^{-2 \alpha T} \brak{1 - e^{-2 \alpha T}}$\\
 \section{Solution}
-Let the output of the ideal system be $y_I$ and output of the real system be $y_R$\\
-\begin{align}
-y_I &= e^{- \alpha t} u\brak{t}
-\end{align}
-\begin{align}
-y_R &= \sbrak{\beta \brak{ u\brak{t} - u\brak{t-5T}} + e^{- \alpha \brak{t - T}} u\brak{t-T}}
-\end{align}
-At time t = 4T, both the signals are equal (for a unit impulse)\\
-\\
+\begin{table}[!h]
+    \centering
+    \input{Tables/table4} \vspace{0.5cm}
+    \caption{Values} 
+    \label{tab:mytable}
+\end{table}
 For both signals to be equal at t = 4T:\\
 \begin{align}
 e^{- \alpha 4T} u\brak{4T}&= \sbrak{\beta\brak{ u\brak{4T} - u\brak{-T}} + e^{- \alpha \brak{3T}} u\brak{3T}}\\
